@@ -1,6 +1,6 @@
 'use client';
 
-import { fetchOrderDetails } from '@/redux/slices/orderSlice';
+import { fetchOrderDetails } from '../../../../redux/slices/orderSlice';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useParams } from 'next/navigation'

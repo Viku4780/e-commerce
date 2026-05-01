@@ -1,7 +1,7 @@
 'use client';
 
-import { logout } from '@/redux/slices/authSlice';
-import { clearCart } from '@/redux/slices/cartSlice';
+import { logout } from '../../../redux/slices/authSlice';
+import { clearCart } from '../../../redux/slices/cartSlice';
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation';
 import React from 'react'

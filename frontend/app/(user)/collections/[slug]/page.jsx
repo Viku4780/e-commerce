@@ -3,7 +3,7 @@
 import FilterSidebar from '@/app/components/Products/FilterSidebar';
 import ProductGrid from '@/app/components/Products/ProductGrid';
 import SortOptions from '@/app/components/Products/SortOptions';
-import { fetchProductsByFilters } from '@/redux/slices/productsSlice';
+import { fetchProductsByFilters } from '../../../../redux/slices/productsSlice';
 import { useParams, useSearchParams } from 'next/navigation';
 import React, { useEffect, useRef, useState } from 'react'
 import { FaFilter } from 'react-icons/fa';

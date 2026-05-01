@@ -1,6 +1,6 @@
 'use client';
 
-import { fetchAllOrders, updateOrderStatus } from '@/redux/slices/adminOrderSlice';
+import { fetchAllOrders, updateOrderStatus } from '../../../redux/slices/adminOrderSlice';
 import { useRouter } from 'next/navigation';
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';

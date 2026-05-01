@@ -4,8 +4,8 @@ import React, { useEffect } from 'react'
 import MyOrders from '../../components/Order/MyOrders'
 import { useDispatch, useSelector } from 'react-redux'
 import { useRouter } from 'next/navigation';
-import { clearCart } from '@/redux/slices/cartSlice';
-import { logout } from '@/redux/slices/authSlice';
+import { clearCart } from '../../../redux/slices/cartSlice';
+import { logout } from '../../../redux/slices/authSlice';
 
 const page = () => {
   const {user} = useSelector(state => state.auth);

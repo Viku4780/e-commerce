@@ -6,9 +6,9 @@ import React, { useEffect, useState } from 'react'
 import RazorPayButton from './RazorPayButton'
 import Image from 'next/image';
 import { useDispatch, useSelector } from 'react-redux';
-import { createCheckout } from '@/redux/slices/checkoutSlice';
+import { createCheckout, addCheckout } from '../../../redux/slices/checkoutSlice';
 import axios from 'axios';
-import { addCheckout } from '@/redux/slices/checkoutSlice';
+// import { addCheckout } from '@/redux/slices/checkoutSlice';
 
 const Checkout = () => {
     const router = useRouter();

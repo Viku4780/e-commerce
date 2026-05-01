@@ -1,5 +1,5 @@
 'use client';
-import { fetchProductDetails, updateProduct } from '@/redux/slices/productsSlice';
+import { fetchProductDetails, updateProduct } from '../../../../../redux/slices/productsSlice';
 
 import axios from 'axios';
 import Image from 'next/image';

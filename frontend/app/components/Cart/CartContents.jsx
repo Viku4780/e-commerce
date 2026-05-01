@@ -1,6 +1,6 @@
 'use client';
 
-import { removeFromCart, updateCartItemQuantity } from '@/redux/slices/cartSlice'
+import { removeFromCart, updateCartItemQuantity } from '../../../redux/slices/cartSlice'
 import Image from 'next/image'
 import React from 'react'
 import { RiDeleteBin3Line } from 'react-icons/ri'

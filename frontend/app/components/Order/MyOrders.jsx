@@ -1,5 +1,5 @@
 'use client';
-import { fetchUserOrders } from '@/redux/slices/orderSlice';
+import { fetchUserOrders } from '../../../redux/slices/orderSlice';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import React, { useEffect } from 'react'

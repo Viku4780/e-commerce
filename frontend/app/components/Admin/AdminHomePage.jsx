@@ -1,5 +1,5 @@
-import { fetchAllOrders } from '@/redux/slices/adminOrderSlice';
-import { fetchAdminProducts } from '@/redux/slices/adminProductSlice';
+import { fetchAllOrders } from '../../../redux/slices/adminOrderSlice';
+import { fetchAdminProducts } from '../../../redux/slices/adminProductSlice';
 import Link from 'next/link';
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';

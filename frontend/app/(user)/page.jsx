@@ -9,7 +9,7 @@ import NewArrivals from "../components/Products/NewArrivals";
 import ProductDetails from "../components/Products/ProductDetails";
 import ProductGrid from "../components/Products/ProductGrid";
 import { useEffect, useState } from "react";
-import { fetchProductsByFilters } from "@/redux/slices/productsSlice";
+import { fetchProductsByFilters } from "../../redux/slices/productsSlice";
 import axios from "axios";
 
 export default function Home() {

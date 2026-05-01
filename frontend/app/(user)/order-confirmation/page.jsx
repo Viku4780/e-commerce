@@ -1,6 +1,6 @@
 'use client';
 
-import { clearCart } from '@/redux/slices/cartSlice';
+import { clearCart } from '../../../redux/slices/cartSlice';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import React, { useEffect } from 'react'

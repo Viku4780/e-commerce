@@ -6,7 +6,7 @@ import { toast } from 'sonner';
 import ProductGrid from './ProductGrid';
 import { useParams } from 'next/navigation';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchProductDetails, fetchSimilarProducts } from '@/redux/slices/productsSlice';
+import { fetchProductDetails, fetchSimilarProducts } from '../../../redux/slices/productsSlice' ;
 import { addToCart } from '@/redux/slices/cartSlice';
 
 

@@ -1,5 +1,5 @@
 'use client';
-import { fetchProductsByFilters, setFilters } from '@/redux/slices/productsSlice';
+import { fetchProductsByFilters, setFilters } from '../../../redux/slices/productsSlice';
 import { useRouter } from 'next/navigation';
 import React, { useState } from 'react'
 import { HiMagnifyingGlass, HiMiniXMark } from 'react-icons/hi2';

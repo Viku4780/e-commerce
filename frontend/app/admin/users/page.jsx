@@ -1,6 +1,6 @@
 'use client';
 
-import { addUser, deleteUser, fetchUsers, updateUser } from '@/redux/slices/adminSlice';
+import { addUser, deleteUser, fetchUsers, updateUser } from '../../../redux/slices/adminSlice';
 import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';

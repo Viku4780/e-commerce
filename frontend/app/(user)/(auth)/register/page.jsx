@@ -3,10 +3,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react'
 import register from '../../../../public/assets/register.webp'
-import { registerUser } from '@/redux/slices/authSlice';
+import { registerUser } from '../../../../redux/slices/authSlice';
 import { useDispatch, useSelector } from 'react-redux';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { mergeCart } from '@/redux/slices/cartSlice';
+import { mergeCart } from '../../../../redux/slices/cartSlice';
 
 const page = () => {
     const [email, setEmail] = useState("");

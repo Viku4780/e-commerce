@@ -1,6 +1,6 @@
 'use client';
 
-import { deleteProduct, fetchAdminProducts } from '@/redux/slices/adminProductSlice';
+import { deleteProduct, fetchAdminProducts } from '../../../redux/slices/adminProductSlice';
 import Link from 'next/link';
 import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';

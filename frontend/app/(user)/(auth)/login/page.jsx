@@ -6,7 +6,7 @@ import login from '../../../../public/assets/login.webp'
 import {loginUser} from "../../../../redux/slices/authSlice.js";
 import { useDispatch, useSelector } from 'react-redux';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { mergeCart } from '@/redux/slices/cartSlice';
+import { mergeCart } from '../../../../redux/slices/cartSlice.js';
 
 const page = () => {
     const [email, setEmail] = useState("");
