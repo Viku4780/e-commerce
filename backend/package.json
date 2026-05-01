@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node backend/server.js",
     "dev": "nodemon server.js",
-    "seed": "node seeder.js"
+    "seed": "node backend/seeder.js"
   },
   "keywords": [],
   "author": "",
