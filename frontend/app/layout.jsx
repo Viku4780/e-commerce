@@ -10,11 +10,7 @@ const inter = Inter({
   weight: ['400', '600']
 });
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({children}) {
    return (
     <html lang="en">
       {/* <Provider store={store}> */}
